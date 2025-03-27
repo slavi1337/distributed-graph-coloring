@@ -1,0 +1,19 @@
+{
+    "Start time": "2025-03-27T22:51:17.794992",
+    "End time": "2025-03-27T23:01:16.103298",
+    "CLI Parameters": {
+        "load_graph": null,
+        "generate_graph": [
+            20,
+            5
+        ],
+        "save_results_file": "Project/project1/res.json",
+        "save_graph": null,
+        "save_colored_graph": "Project/project1/colored.json"
+    },
+    "Average degree of the graph": 5.0,
+    "Max Degree of the graph": 5,
+    "Minimum successful colors": 4,
+    "Min color coloring execution time (s)": 95.113857,
+    "Total time taken for all the colorings (s)": 361.47297499999996
+}
