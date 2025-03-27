@@ -35,7 +35,7 @@ class Node:
     def set_color(self, color):
         self._color = color
 
-    def to_dict(self):
+    def to_map(self):
         node_data = {}
         node_data["node_id"] = self._node_id
         node_data["neighbors"] = self._neighbors
@@ -43,7 +43,7 @@ class Node:
         return node_data
 
     @classmethod
-    def from_dict(cls, raw_data):
+    def from_map(cls, raw_data):
         id1 = raw_data.get("node_id")
         neigbors1 = raw_data.get("neighbors", [])
         color1 = raw_data.get("color", -1)
